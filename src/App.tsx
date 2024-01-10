@@ -88,7 +88,7 @@ const App = () => {
                     (page - 1) * limit
                 }&select=title,description,price,rating,brand,category`
             );
-            setDataSource(response.data.products);
+            setDataSource((response.data as { products: DataType[] }).products);
         } catch (error) {
             console.error("Error fetching data:", error);
         }
