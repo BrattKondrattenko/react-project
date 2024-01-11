@@ -1,0 +1,47 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+  align-items: center;
+}
+
+.navbar__container {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 3rem;
+}
+
+.navbar__link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: darkgreen;
+  font-family: "Jost", Arial, sans-serif;
+  padding: 15px;
+  transition: 0.5s;
+
+}
+
+.navbar__link:hover {
+  background-color: aliceblue;
+  border-radius: 30px;
+}
+
+.sign-up-button {
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 12px;
+  font-family: "Jost", Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 400;
+  letter-spacing: 2px;
+  border-radius: 30px;
+  background-color: #375438;
+  transition: 0.5s;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+
+.sign-up-button:hover {
+  background-color: #1c2a1c;
+}
