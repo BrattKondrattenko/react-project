@@ -1,0 +1,30 @@
+.good {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  background-color: aliceblue;
+  width: 200px;
+  -moz-box-shadow: 0 0 3px #989494;
+  -webkit-box-shadow: 0 0 3px #989494;
+  box-shadow: 0 0 3px #989494;
+}
+
+.good__title {
+  color: #847577;
+  font-family: "Jost", Arial, sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+}
+
+.good__quantity {
+  font-family: "Jost", Arial, sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.good__description {
+  font-family: "Jost", Arial, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+}
