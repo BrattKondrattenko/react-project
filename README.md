@@ -1,4 +1,4 @@
-#Видео работы (https://disk.yandex.ru/i/M9WE_uEmtHUnGw)
+#Видео работы (https://disk.yandex.ru/i/7I_PzEH4Hqx_2Q)
 
 # React + TypeScript + Vite
 
