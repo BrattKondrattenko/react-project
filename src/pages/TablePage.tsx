@@ -82,10 +82,11 @@ const TablePage = () => {
   const [dataSource, setDataSource] = useState<DataType[]>([]);
 
   const getData = async (page: number, limit: number) => {
-    const skip = (page - 1) * limit;
     try {
       const response = await axios.get(
-        `https://dummyjson.com/products?limit=${limit}&skip=${skip}&select=title,description,price,rating,brand,category`
+        `https://dummyjson.com/products?limit=${limit}&skip=${
+          (page - 1) * limit
+        }&select=title,description,price,rating,brand,category`
       );
       setDataSource(response.data.products);
     } catch (error) {
