@@ -1,9 +1,9 @@
 import './styles.css';
 
-type ContentBlockPropsType = {
+interface ContentBlockPropsType {
   title: string;
   paragraps: string[];
-};
+}
 
 const ContentBlock = (props: ContentBlockPropsType) => {
   const { title, paragraps } = props;
